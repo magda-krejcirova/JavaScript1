@@ -1,0 +1,13 @@
+.zelena {
+    background-color: green;
+    color: white;
+    padding: 30px;
+    border: 2px dashed yellow;
+}
+
+.cervena {
+    background-color: red;
+    color: white;
+    padding: 30px;
+    border: 2px dashed yellow;
+}
