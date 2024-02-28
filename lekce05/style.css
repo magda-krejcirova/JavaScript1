@@ -11,3 +11,16 @@
     padding: 30px;
     border: 2px dashed yellow;
 }
+
+.nazev {
+    font-size: 30px;
+    font-weight: bold ;
+}
+
+.ramecek {
+    border: 3px solid black;
+}
+
+.pozadi {
+    background-color: aqua;
+}
