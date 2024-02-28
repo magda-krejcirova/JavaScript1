@@ -42,3 +42,30 @@ if (vek2 > 64) {
 }   else {
         document.body.innerHTML += "Navstevnik do 6 let: " + cena + " Euro </br>"
 }       
+
+/*
+const plnaCena = 12;
+let cena = plnaCena;
+const age = Number(prompt('Zadejte svůj věk:'));
+if (age < 6) {
+  cena = 0;
+} else if (age >= 6 && age <= 26) {
+  cena = plnaCena * 0.65;
+} else if (age > 64) {
+  cena = plnaCena * 0.5;
+}
+cena = Math.ceil(cena);
+document.body.innerHTML += `<p>Cena lístku je ${cena} €.`;
+
+let cena = 12;
+const age = Number(prompt('Zadejte svůj věk:'));
+if (age < 6) {
+  cena = 0;
+} else if (age >= 6 && age <= 26) {
+  cena *= 0.65;
+} else if (age > 64) {
+  cena *= 0.5;
+}
+cena = Math.ceil(cena);
+document.body.innerHTML += `<p>Cena lístku je ${cena} €.`;
+*/

@@ -22,4 +22,4 @@ if (vek >= 18) {
 console.log(odstavec)
 // dalsi methody
 // odstavec.classList.remove ("cervena") - odebirani tridy
-popis.textContent = "uzasny produkt pizza s anansem"
+popis.textContent = "uzasny produkt pizza s ananasem"

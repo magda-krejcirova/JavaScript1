@@ -1,4 +1,4 @@
-const odstavec = document.querySelector("p")
+const odstavec = document.querySelector("p") // tag <p>
 //const odstavce = document.querySelectorAll("p") zohlednuje vsechny odstavce <p>
 const vek = Number(prompt("Zadej vek: "))
 
