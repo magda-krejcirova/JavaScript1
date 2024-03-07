@@ -1,0 +1,9 @@
+node_modules
+businessObjectReuse
+docs-gen
+results
+.DS_Store
+temp
+s4_stock.json.*
+.idea
+downloads

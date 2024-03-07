@@ -21,12 +21,12 @@ round(number)
 //////////////////////////////////////////////
 const ellipseArea = (height, width) => {
     let plocha = (((height * width) / 4) * Math.PI)
-    return plocha
 }
 console.log(ellipseArea(1, 2))
 console.log(ellipseArea(2, 2))
 console.log(ellipseArea(3, 2))
 
+/////////////////////////////////////////////////
 const maxZeDvou = (number1, number2) => {
     if (number1 > number2) {
         document.body.innerHTML += "<p> cislo: " + number1 + " je vetsi </p>"
