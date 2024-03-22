@@ -1,4 +1,4 @@
-et jmeno1 = "Michal"
+let jmeno1 = "Michal"
 
 const fce1 = () => {
     let jmeno1 = "Milada"

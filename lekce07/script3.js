@@ -1,14 +1,46 @@
-const fillCut = (str, len) => {
-    if (str.length > len) {
-        return str.slice(0,len)
-    } else if (str.length < len) {
-        return str.padStart(len,".")
-    } else { 
-        return str
-    }
+// const age = 25;
+// let price
+// if (age > 21) {
+//   let price = 100;
+//   document.body.innerHTML += `<p>${price}</p>`;
+// } else if (age > 15) {
+//   let price = 50;
+// } else {
+//   let price = 0;
+// }
 
+// document.body.innerHTML += `<p>${price}</p>`;
+
+// const age = 25;
+
+// if (age > 21) {
+//   const price = 100;
+//   document.body.innerHTML += `<p>${price}</p>`;
+// } else if (age > 15) {
+//   const price = 50;
+// } else {
+//   const price = 0;
+// }
+
+// document.body.innerHTML += `<p>${price}</p>`;
+
+// let name = 'Franta';
+
+// const greet = (name) => {
+//   let nam = 'Pepa';
+//   document.body.innerHTML += `<p>${name}</p>`;
+// };
+
+// greet('Jožin');
+
+function myFn() {
+    let name = 'Adilijan';
+    function inner () {
+        console.log('Hi ' + name);
+    }
+    return inner;
 }
 
-document.body.innerHTML += fillCut('petr', 8) + '<br>'; // vypíše „....petr“
-document.body.innerHTML += fillCut('petr', 3) + '<br>'; // vypíše „pet“
-document.body.innerHTML += fillCut('petr', 4) + '<br>'; // vypíše „petr“
+let clouser = myFn();
+console.log(clouser);
+clouser();

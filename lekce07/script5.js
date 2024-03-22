@@ -1,8 +1,8 @@
 //////////////////////////Prevod meny
 const convertToCZK = (mnozstvi, mena) => {
-    let koruna = null
+    let koruna = null // let koruna
     if (mena === "EUR") {
-        return koruna = Math.round(mnozstvi * 24.47)
+        return koruna = Math.round(mnozstvi * 24.47) 
     } else if (mena === "GBP"){
         return koruna = Math.round(mnozstvi * 28.09)
     } else if (mena === "USD"){
@@ -11,6 +11,26 @@ const convertToCZK = (mnozstvi, mena) => {
         return koruna = Math.round(mnozstvi * 478637)
     } else return koruna
 }
+
+/*
+const convertToCZK = (amount, currency) => {
+  let rate;
+
+  if (currency === 'EUR') {
+    rate = 24.47;
+  } else if (currency === 'GBP') {
+    rate = 28.09;
+  } else if (currency === 'USD') {
+    rate = 24.81;
+  } else if (currency === 'BTC') {
+    rate = 478637;
+  } else {
+    return null;
+  }
+
+  return Math.round(rate * amount);
+};
+*/
 
 document.body.innerHTML += convertToCZK(25, 'EUR') + '<br>'
 document.body.innerHTML += convertToCZK(25, 'GBP') + '<br>'
