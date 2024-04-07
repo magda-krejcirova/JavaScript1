@@ -1,4 +1,16 @@
 const age = 25;
+
+if (age > 21) {
+  const price = 100;
+} else if (age > 15) {
+  const price = 50;
+} else {
+  const price = 0;
+}
+
+document.body.innerHTML += `<p>${price}</p>`;
+
+const age2 = 25;
 price = 16
 if (age > 21) {
   price = 100;

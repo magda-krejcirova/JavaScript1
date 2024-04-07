@@ -4,11 +4,11 @@ const elSelect = document.querySelector("#vyber")
 
 //po kliknuti na odeslat, zobrazi info o tom, ze uzivatel (jmeno,prijmeni) byl zaregistrovan
 elForm.addEventListener("submit", (event) => {
-    event.preventDefault()
+    event.preventDefault() // zakaze naslednou akci, a tim padem zamezim odeslani formulare (napr, je tam chyba v formatu telef. cisla, spatna data)
     const jmenoTxt = document.querySelector("#jmeno")
     const prijmeniTxt = document.querySelector("#prijmeni")
 
-    console.log(`${jmenoTxt}, ${jmenoTxt.value}`)
+    console.log(`${jmenoTxt}, ${jmenoTxt.value}, ${event.value}`)
 
     alert(`Uzivatel ${jmenoTxt.value} ${prijmeniTxt.value} uspesne registrovan!`)
 })

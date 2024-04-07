@@ -20,7 +20,7 @@ const vysledek2 = ctvercovaParcela(8, 12)
 
 console.log(vysledek, vysledek2)
 
-console.log((()=> {
+console.log((()=> { // ANONYMNI FUNKCE
     document.body.innerHTML = "Ahoj!"
     return "Jak se mas";
 })());
@@ -36,3 +36,6 @@ const isSafePassword = (pass) => {
 const heslo = prompt("Zadej heslo")
 
 console.log(isSafePassword(heslo))
+
+// FUNKCE MUZE BYT I TATO: ANONYMNI FUNKCE (RETURN NENI POVINNY)
+// () => {}

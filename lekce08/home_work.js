@@ -5,7 +5,7 @@ const vyst3 = document.querySelector("#nabidka3")
 const justFood = (udalost, counter) => {
     let cena = 150
     cena *= counter
-    cena = cena.toLocaleString() // toto by melo jit nejak zoptimalizovat, ale neni cas
+    cena = cena.toLocaleString() // tyto 3 radky by mely jit nejak zoptimalizovat, ale neni cas
     return `${udalost} catering od Just Food pro ${counter} lidi za ${cena} Kc`
 }
 

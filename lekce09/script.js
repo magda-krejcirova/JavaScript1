@@ -1,4 +1,5 @@
 selectAnswer = (event) => {
+    //event.target.classList.add("ramecek")
     event.target.classList.toggle("ramecek")
     console.log(event)
 }
@@ -19,3 +20,4 @@ document.querySelector("#text2").addEventListener("click", () => {
 
 clickAnswer = () => {alert("klikl jsi na text3")}
 document.querySelector("#text3").addEventListener("click", clickAnswer)
+

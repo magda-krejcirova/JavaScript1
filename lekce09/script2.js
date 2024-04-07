@@ -1,24 +1,21 @@
-const formElm = document.querySelector("#newsLetter")
-console.log(formElm)
-formElm.addEventListener("submit", (event) => {
+const submitElm = document.querySelector("#newsLetter")
+
+submitElm.addEventListener("submit", () => {
     const emailTxt = document.querySelector("#email")
-    console.log(emailTxt)
-    formElm.textContent = `Děkujeme za váš zájem. 
-    Těšte se na novinky ze světa frontendu a UX na vaší adrese 
-    ${emailTxt.value}`    
+    submitElm.textContent = `Děkujeme za váš zájem. 
+         Těšte se na novinky ze světa frontendu a UX na vaší adrese 
+         ${emailTxt.value}`    
 })
+////////////////////////////////////////////////////
+// const formular = document.querySelector('#newsLetter')
 
+// const odebirat = (event) => {
+// 	event.preventDefault()
+// 	const input = document.querySelector('#email')
+// 	const email = input.value
+// 	formular.textContent = `2Děkujeme za váš zájem. Těšte se na novinky ze světa frontendu a UX na vaší adrese ${email}.`
+// }
 
+// formular.addEventListener('submit', odebirat)
+//////////////////////////////////////////////////////
 
-
-// const elForm = document.querySelector("#registrace")
-
-// elForm.addEventListener("submit", (event) => {
-//     event.preventDefault()
-//     const jmenoTxt = document.querySelector("#jmeno")
-//     const prijmeniTxt = document.querySelector("#prijmeni")
-
-//     console.log(`${jmenoTxt}, ${jmenoTxt.value}`)
-
-//     alert(`Uzivatel ${jmenoTxt.value} ${prijmeniTxt.value} uspesne registrovan!`)
-// })
